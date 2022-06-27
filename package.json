@@ -1,0 +1,80 @@
+{
+  "name": "pi-x",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.17",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "axios": "^0.24.0",
+    "i18next": "^21.6.4",
+    "moment-timezone": "^0.5.34",
+    "react": "^17.0.2",
+    "react-csv": "^2.2.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.3",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.4.1",
+    "next-redux-wrapper": "^7.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "typescript": "^4.5.4",
+    "web-vitals": "^2.1.2",
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.2",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@types/react-table": "^7.7.9",
+    "antd": "^4.17.4",
+    "date-fns": "^2.27.0",
+    "framer-motion": "^4",
+    "moment": "^2.29.1",
+    "namor": "^2.0.3",
+    "nanoid": "^3.1.30",
+    "next": "12.0.7",
+    "numeral": "^2.0.6",
+    "next-plugin-antd-less": "^1.6.0",
+    "react-icons": "^4.3.1",
+    "react-table": "^7.7.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "start": "react-scripts start",
+    "build": "next build --no-lint && next export",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^12.1.0",
+    "@types/numeral": "^2.0.2",
+    "@types/react-csv": "^1.1.2",
+    "@types/redux-logger": "^3.0.9"
+  }
+}
